@@ -1,58 +1,49 @@
-# project_m1
+<p align="left"><img src="https://cdn-images-1.medium.com/max/184/1*2GDcaeYIx_bQAZLxWM4PsQ@2x.png"></p>
 
-# Data Project README file
+#### ironhack_datamadpt1120_project_m1
 
-The README file describes the essence of the project playing the most important role. Most visitors will simply scroll down about twice on the README and leave if they are not interested. So, the README file should provide the reason **why** to checkout your project!!!). 
-Bearing that in mind, your job is to: 
-- Tell them what it is (with context).
-- Show them what it looks like in action.
-- Show them how they use it.
-- Tell them any other relevant details.
+# Pipelines Project
+###Using a Basic Income Survey with Demographic Data
 
-![Image](https://wtop.com/wp-content/uploads/2017/01/jobs_2017_ts.jpg)
+## **Data:**
+
+There are 3 different datasources involved:
+
+- **Tables (.db).** A raw_data_project_m1.db file with the main dataset.
+
+- **API.** The API from the [Open Skills Project](http://dataatwork.org/data/).  
+
+- **Web Scraping.** Information about country codes that will need to be retrieved from the [Eurostat](https://ec.europa.eu/eurostat/statistics-explained/index.php/Glossary:Country_codes) website.
+
+
+## **Goals:**
+From a learning approach, this project aims to reinforce and validate learnings about: 
+- Jupyter Notebook, GitHub, SQL / SQLite, DBeaver, Python & Pandas among others. 
+
+From a practical approach, this project aims to: 
+- Retrieve, consolidate and clean data. Perform calculations, analysis and presentation of results & learnings from data.
+
+![Image](https://static.wixstatic.com/media/00c01d_e0a38942c8dc4f6086f60a6200c41b7a~mv2.png/v1/fill/w_740,h_336,al_c,q_90,usm_0.66_1.00_0.01/00c01d_e0a38942c8dc4f6086f60a6200c41b7a~mv2.webp)
 ---
 
-## **Formatting**
-Your readers will most likely view your README in a browser so please keep that in mind when formatting its content: 
-- Use proper format when necesary (e.g.: `import pandas as pd`). 
-- Categorize content using two or three levels of header beneath. 
-- Make use of **emphasis** to call out important words. 
-- Link to project pages for related libraries you mention. Link to Wikipedia, Wiktionary, even Urban Dictionary definitions for words of which a reader may not be familiar. Make amusing cultural references. 
-- Add links to related projects or services. 
-
-> Here you have a markdown cheatsheet [Link](https://commonmark.org/help/) and tutorial [Link](https://commonmark.org/help/tutorial/).
-
-
-## **Start writing ASAP:**
-*Last but not least, by writing your README soon you give yourself some pretty significant advantages. Most importantly, you’re giving yourself a chance to think through the project without the overhead of having to change code every time you change your mind about how something should be organized or what should be included.*
-
-
-## **Suggested Structure:**
-
-### :raising_hand: **Name** 
-Self-explanatory names are best. If the name sounds too vague or unrelated, it may be a signal to move on. It also must be catchy. Images, Logo, Gif or some color is strongly recommended.
-
 ### :baby: **Status**
-Alpha, Beta, 1.1, Ironhack Data Analytics Final Project, etc... It's OK to write a sentence, too. The goal is to let interested people know where this project is at.
+Alpha - Ironhack Data Analytics First Project 
+- Needs some practice hours for more table calculations and pipeline assembling.
 
 ### :running: **One-liner**
-Having a one-liner that describes the pipeline/api/app is useful for getting an idea of what your code does in slightly greater detail. 
+User can select to retrieve predetermined information tables: **(1)** for every country included in the dataset, **(2)** To get the table for a specific country imputed by the user.
 
 ### :computer: **Technology stack**
-Python, Pandas, Scipy, Scikit-learn, etc. Indicate the technological nature of the software, including primary programming language(s), main libraries and whether the software is intended as standalone or as a module in a framework or other ecosystem.
+-Primary programming language: Python.
+-Software: Jupyter Notebook, DBeaver, PyCharm.
+-Libraries: pandas, numpy, sqlalchemy, requests, BeautifulSoup, argparse.
 
-### :boom: **Core technical concepts and inspiration**
-Why does it exist? Frame your project for the potential user. Compare/contrast your project with other, similar projects so the user knows how it is different from those projects. Highlight the technical concepts that your project demonstrates or supports. Keep it very brief.
-
-### :wrench: **Configuration**
-Requeriments, prerequisites, dependencies, installation instructions.
-
-### :see_no_evil: **Usage**
+### :see_no_evil: **Usage** **TBD**
 Parameters, return values, known issues, thrown errors.
 
 ### :file_folder: **Folder structure**
 ```
-└── project
+└── project_m1
     ├── __trash__
     ├── .gitignore
     ├── .env
@@ -71,39 +62,11 @@ Parameters, return values, known issues, thrown errors.
         └── results
 ```
 
-> Do not forget to include `__trash__` and `.env` in `.gitignore` 
-
 ### :shit: **ToDo**
-Next steps, features planned, known bugs (shortlist).
+Next steps: Get Help, features planned, known bugs (shortlist).
 
-### :information_source: **Further info**
-Credits, alternatives, references, license.
 
 ### :love_letter: **Contact info**
-Getting help, getting involved, hire me please.
+If you have any suggestions, questions, or want to contact me please write to manuelaquinop@gmail.com
 
 ---
-
-> Here you have some repo examples:
-- [Onegy](https://github.com/borjauria/Final-Project)
-- [E-VITALOS](https://github.com/marinapm90/E-vitalos)
-- [Movie Founder](https://github.com/Alfagu/final-project-Ironhack-0419mad)
-- [MMELT](https://github.com/Juanjopf19/Ironhack-final-project--MMELT) 
-
-- [ART-ificial intelligence](https://github.com/Juliaroch/Ironhack-final-project-Julia-Roch)
-- [Next-Frida](https://github.com/Pacoanes/Next-Frida)
-- [Art Classification](https://github.com/serguma/art_classification)
-- [Convolutional Neural Network to detect Pneumonia](https://github.com/jmolins89/final-project)
-- [Brain tumor detection project](https://github.com/alonsopdani/brain-tumor-detection-project)
-
-- [Math handwritting recognition](https://github.com/yaakx/Math_handwritting_recognition)
-- [Mamba (OCR-Translator-Assistant)](https://github.com/YonatanRA/OCR-translator-assistant-project)
-
-- [Yummest](https://github.com/almsasantos/Yummest_Food_App)
-- [HackDecó](https://github.com/herreradelduque/Ironhack-Final-Project---HackDeco)
-
-> Here you have some tools and references:
-- [Make a README](https://www.makeareadme.com/)
-- [Awesome README](https://github.com/matiassingers/awesome-readme)
-- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-

@@ -5,14 +5,15 @@ from sqlalchemy import create_engine
 import requests
 
 
-def get_job_description(project_m1_data):
+def get_job_description_dict(project_m1_data):
 
     # To extract all unique job codes from our database and find them through the API
 
+    job_code_description_df(project_m1_data)
     unique_job_codes_in_db = project_m1_data['normalized_job_code'].unique()
     unique_job_code_list = list(unique_job_codes_in_db[1:])
 
-    # To create dictionary and build DataFrame of job codes and job descriptions
+    # To create dictionary of job codes and job descriptions
 
     job_code_dict = {}
 
@@ -20,6 +21,12 @@ def get_job_description(project_m1_data):
         job_code_response = requests.get(f'http://api.dataatwork.org/v1/jobs/{job_code}').json()
         job_code_dict[job_code] = job_code_response['title']
 
+    return job_code_dict
+
+
+def job_code_description_df(job_code_dict):
+
+    get_job_description_dict(job_code_dict)
     job_code_df = pd.DataFrame.from_dict(job_code_dict, orient='index', columns=['job_description'])
     job_code_df = job_code_df.reset_index()
     job_code_df = job_code_df.rename(columns={"index": "job_code"})

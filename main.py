@@ -29,7 +29,10 @@ def main(arguments):
     print(arguments.table)
     print(arguments.sample)
 
-    acquire(path)
+    if path == None:
+        acquire('/Users/manuelaquino/Bootcamp/project_m1/data/raw/raw_data_project_m1.db')
+    else:
+        acquire(path=path)
 
     print('Process finished!')
 

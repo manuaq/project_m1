@@ -41,8 +41,6 @@ User can select to retrieve predetermined information tables:\
 -Software: Jupyter Notebook, DBeaver, PyCharm.\
 -Libraries: pandas, numpy, sqlalchemy, requests, BeautifulSoup, argparse.
 
-### :see_no_evil: **Usage** **TBD**
-Parameters, return values, known issues, thrown errors.
 
 ### :file_folder: **Folder structure**
 ```
@@ -65,11 +63,8 @@ Parameters, return values, known issues, thrown errors.
         └── results
 ```
 
-### :shit: **ToDo**
-Next steps: Get Help, features planned, known bugs (shortlist).
 
-
-### :love_letter: **Contact info**
+### :telephone_receiver: **Contact info**
 If you have any suggestions, questions, or want to contact me please write to manuelaquinop@gmail.com
 
 ---

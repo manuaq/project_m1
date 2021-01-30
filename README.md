@@ -3,7 +3,7 @@
 #### ironhack_datamadpt1120_project_m1
 
 # Pipelines Project
-###Using a Basic Income Survey with Demographic Data
+### Using a Basic Income Survey with Demographic Data
 
 ## **Data:**
 
@@ -27,15 +27,18 @@ From a practical approach, this project aims to:
 ---
 
 ### :baby: **Status**
-Alpha - Ironhack Data Analytics First Project 
-- Needs some practice hours for more table calculations and pipeline assembling.
+Alpha - Ironhack Data Analytics First Project\
+Needs some practice hours for more table calculations and pipeline assembling.
 
 ### :running: **One-liner**
-User can select to retrieve predetermined information tables: **(1)** for every country included in the dataset, **(2)** To get the table for a specific country imputed by the user.
+User can select to retrieve predetermined information tables:\
+**(1)** for every country included in the dataset\
+**(2)** To get the table for a specific country imputed by the user.
 
 ### :computer: **Technology stack**
--Primary programming language: Python.
--Software: Jupyter Notebook, DBeaver, PyCharm.
+
+-Primary programming language: Python.\
+-Software: Jupyter Notebook, DBeaver, PyCharm.\
 -Libraries: pandas, numpy, sqlalchemy, requests, BeautifulSoup, argparse.
 
 ### :see_no_evil: **Usage** **TBD**

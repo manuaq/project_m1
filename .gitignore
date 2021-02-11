@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 
 # Related to JetBrains and Pycharm
-.idea/
+#.idea/
